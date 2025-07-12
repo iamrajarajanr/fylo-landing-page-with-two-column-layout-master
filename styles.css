@@ -1,80 +1,127 @@
-body{
-    max-width:900%;
-}
-.container{
-    margin-top:2%;   
+@font-face {
+    font-family: Raleway;
+    src: url(Raleway-VariableFont_wght.ttf);
 }
 
-img{
+@font-face {
+    font-family: Opensans;
+    src: url(OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+body{
+    font-family: Opensans;
+    max-width:900%;
+}
+
+
+header img{
+    margin-top: 20px;
+
     margin-left:5%;
     max-width: 50%;
     max-height: 50%; 
 }
 
 nav ul{
+    margin-top: 25px;
     list-style: none;
     padding: 0;
     display: flex;
 }
 
 header{
+    font-family: Raleway;
     margin-right:5%;
     display: flex;
     justify-content: space-between;
 }
 
 nav li{ 
+    font-family: Raleway;
     letter-spacing: 1.5px;
     margin-left: 3em;
 }
 
 nav a{
+    
     text-decoration: none;
 }
 
 /* slideone */
 
 .slideone{
- 
+    margin-top: 30px;
     margin-right:5%;
     margin-left:5%;
     display: flex;
     border: 1px solid black;
-    height:380px;
+    height: 450px;
+    
 }
 
 .slideonetext{
     
     border:1px solid black;
     width:50%;
-    height:380px;
+    
 }
 
 
 .slideoneimg{
-   
+
     border:1px solid black;
     width:50%;
-    height:380px;
+   
 }
 
 #svgone{
+  
     margin:0px;
-    min-width: 100%;
-    min-height: 380px;
+    width: 100%;
+    height: 450px;
+    
+}
+
+/* slidetwo */
+
+.slidetwoo{
+    background-image: url(/images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.slidetwo{
+    
+    margin-top: 30px;
+    margin-right:5%;
+    margin-left:5%;
+    display: flex;
+    /* border: 1px solid black; */
+    height: 450px;
+    
+}
+
+.slidetwotext{
+    
+    /* border:1px solid black; */
+    width:50%;
+    
 }
 
 
-@media(max-width:500px){
+.slidetwoimg{
 
+    border:1px solid black;
+    width:50%;
    
-
-    header{
-        display: flex;
-        flex-direction: column;
-    }
-    .slideone{
-        display: flex;
-        flex-direction: column;
-    }
 }
+
+#svgtwo{
+  
+    margin:0px;
+    width: 100%;
+    height: 450px;
+    
+}
+
