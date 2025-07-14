@@ -297,7 +297,65 @@ footer{
 
 
 @media(max-width:600px){
+    html{
+        max-width:600px;
+        
+    }
+
+    .header{
+        width:100%;
+    }
+    .conone{
+        height: 650px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cononeimg{
+        order: -1;
+        margin:0 auto; 
+        width: 90%; 
+    }
+
+    .cononetext{
+        width: 100%;
+    }
+
+    .conone input{
+        order:-1;
+        width:80%;
+        margin-bottom: 10px;
+    }
+
+    .conone button{
+        width:80%;
+    }
+
+    .contwo{
+        height: 0px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .contwoimg{
+        order: -1;
+        margin:0 auto; 
+        width: 90%; 
+    }
+
+    .contwotext{
+        width: 100%;
+        height:100px;
+    }
     
+
+
+
+
+
 }
 
 
