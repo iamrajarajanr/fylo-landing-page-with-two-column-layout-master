@@ -1,127 +1,210 @@
-@font-face {
-    font-family: Raleway;
-    src: url(Raleway-VariableFont_wght.ttf);
-}
-
-@font-face {
-    font-family: Opensans;
-    src: url(OpenSans-VariableFont_wdth\,wght.ttf);
-}
-
-body{
-    font-family: Opensans;
-    max-width:900%;
-}
-
-
-header img{
-    margin-top: 20px;
-
-    margin-left:5%;
-    max-width: 50%;
-    max-height: 50%; 
-}
-
-nav ul{
-    margin-top: 25px;
-    list-style: none;
-    padding: 0;
-    display: flex;
-}
-
 header{
-    font-family: Raleway;
-    margin-right:5%;
-    display: flex;
+    display:flex;
     justify-content: space-between;
-}
 
-nav li{ 
-    font-family: Raleway;
-    letter-spacing: 1.5px;
-    margin-left: 3em;
 }
 
 nav a{
-    
     text-decoration: none;
 }
 
-/* slideone */
-
-.slideone{
-    margin-top: 30px;
-    margin-right:5%;
-    margin-left:5%;
+nav ul{
     display: flex;
-    border: 1px solid black;
-    height: 450px;
-    
+    list-style: none;
 }
 
-.slideonetext{
-    
-    border:1px solid black;
-    width:50%;
-    
+nav li{
+    margin-left:2em;
 }
 
-
-.slideoneimg{
-
-    border:1px solid black;
-    width:50%;
-   
-}
-
-#svgone{
-  
-    margin:0px;
-    width: 100%;
-    height: 450px;
-    
-}
-
-/* slidetwo */
-
-.slidetwoo{
-    background-image: url(/images/bg-curve-desktop.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
-}
-.slidetwo{
-    
-    margin-top: 30px;
-    margin-right:5%;
-    margin-left:5%;
+.conone{
     display: flex;
     /* border: 1px solid black; */
-    height: 450px;
-    
+    max-width: 900px;
+    height: 335px;
+    margin:35px auto;
 }
-
-.slidetwotext{
-    
-    /* border:1px solid black; */
-    width:50%;
-    
-}
-
-
-.slidetwoimg{
-
-    border:1px solid black;
-    width:50%;
+.cononetext{
    
+    width:50%;
+}
+.cononeimg{
+   width:50%; 
 }
 
-#svgtwo{
-  
-    margin:0px;
-    width: 100%;
-    height: 450px;
+.cononeimg img{
+   width:100%;
+   height: 100%;
+}
+
+.contwobg{
+    margin:35px auto;
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/images/bg-curve-desktop.svg);
+     height: 550px;
+}
+
+.contwo{
+
+    display: flex;
+    border: 1px solid black;
+    max-width: 900px;
+    height: 550px;
+    margin:35px auto;
+}
+
+.contwotext{
+    width:50%;
+}
+
+.contwoimg{
+    width:50%;
+}
+
+.contwoimg img{
+    width:100%;
+    height: 100%;
+}
+
+.box{
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(163, 163, 163);
+    background-color: white;
     
+    
+}
+
+.profile img{
+
+    width:15%;
+    border-radius: 100%;
+}
+
+.profile{
+    
+    display: flex;
+}
+
+.conthreebg{
+    background-color: rgb(143, 143, 252);
+    height: 335px;
+}
+
+.conthree{
+    display: flex;
+    margin: auto auto;
+    max-width: 900px;
+    height: 335px;
+}
+
+.conthreetext{
+    height: 100%;
+    width:50%;
+    border: 1px solid black;
+}
+
+.conthreeinput{
+    height: 100%;
+    width:50%;
+    border: 1px solid black;
+}
+
+footer{
+    
+    height: 250px;
+    background-color: rgb(2, 27, 255);
+}
+
+.confour{
+    display: flex;
+    height: 250px;
+    margin: auto auto;
+    border: 1px solid black;
+    max-width: 900px;
+
+
+}
+
+.contact{
+    
+    border:1px solid black;
+    height:100%;
+    width:50%;
+}
+
+.contact img{
+    width:50%;
+    margin: 20px 0px;
+}
+
+.call{
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.call p{
+    
+    margin-left:10px;
+   margin-top:0px;
+    margin-bottom:0px;
+}
+
+.call img{
+    width:20px;
+    height: 20px;
+}
+
+.mail{
+    display: flex;
+}
+
+.mail p{
+    margin-left:10px;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+.mail img{
+    width:20px;
+    height: 20px;
+}
+
+.linkbox{
+    border:1px solid black;
+    height:100%;
+    width:30%;
+}
+
+.linkboxx{
+    border:1px solid black;
+    height:100%;
+    width:30%;
+}
+
+.social{
+    border:1px solid black;
+    height:100%;
+    width:30%;
+}
+
+.linkbox ul{
+    list-style: none;
+    margin:0px;
+}
+
+.linkbox li{
+    margin-bottom: 10px;
+}
+
+.linkboxx ul{
+    list-style: none;
+    margin:0px;
+}
+
+.linkboxx li{
+    margin-left: 0px;
+    margin-bottom: 10px;
 }
 
